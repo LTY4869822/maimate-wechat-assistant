@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+logs/
+local-credentials.json
+installation.json
+selected-group.json
+agent-onboarding.json
+agent-windows.json
+*.db
+*.sqlite

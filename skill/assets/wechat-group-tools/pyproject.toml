@@ -1,0 +1,13 @@
+[project]
+name = "wechat-group-tools"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = ["maibot-plugin-sdk>=2.16,<2.17", "websockets>=16,<18", "Pillow>=10,<14"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f9f7" />
+    <meta name="description" content="Flandora 面板：微信与 OneBot v11 之间的桥接适配器" />
+    <title>Flandora 面板</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <script>
+      try {
+        const saved = localStorage.getItem('flandora-theme')
+        const theme = saved === 'dark' || saved === 'light' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        document.documentElement.dataset.theme = theme
+        document.documentElement.style.colorScheme = theme
+      } catch (_) {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-DuOyRGti.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DelWvHzR.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

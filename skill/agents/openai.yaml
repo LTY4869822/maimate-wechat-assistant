@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信群聊助手"
+  short_description: "自动安装配置 MaiBot 与 Flandora，接入普通微信群聊助手"
+  default_prompt: "使用 $wechat-group-assistant 帮我安装并配置普通微信群聊助手，保留现有数据，需要扫码或填写密钥时再叫我。"

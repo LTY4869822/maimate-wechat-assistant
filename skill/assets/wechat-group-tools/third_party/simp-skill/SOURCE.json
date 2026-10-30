@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/BeamusWayne/simp-skill",
+  "source": "https://github.com/BeamusWayne/simp-skill/blob/main/prompts/message_crafter.md",
+  "git_blob_sha": "9e7b2e37997c20cc08bacb26fdee28724d6297ed",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Beamus Wayne",
+  "retrieved_at": "2026-10-29",
+  "usage": "保留原文件与许可；提取情境贴合、感受表达、口语与减少模板感的规则，改写为 skills/sweet-talk/SKILL.md。新增的直接群聊风格与示例由本机适配编写。未启用原项目的数据分析工具或档案系统。"
+}

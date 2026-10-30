@@ -1,0 +1,185 @@
+{
+  "skill_version": "1.2.0",
+  "verified_date": "2026-10-29",
+  "uv": "0.12.5",
+  "python_bot": "3.12.8",
+  "python_bridge": "3.13.15",
+  "maibot": "1.3.16",
+  "sdk": "2.16.0",
+  "dashboard": "1.9.10",
+  "maim_message": "0.6.8",
+  "wechat_tested": "4.1.15.56",
+  "sources": {
+    "maibot": {
+      "url": "https://codeload.github.com/Mai-with-u/MaiBot/zip/fe88ec6b6053e40eaf430cb5ba7ed7e805add2cb",
+      "commit": "fe88ec6b6053e40eaf430cb5ba7ed7e805add2cb",
+      "archive": "MaiBot-source.zip"
+    },
+    "flandora": {
+      "url": "https://codeload.github.com/OMSociety/Flandora/zip/5a58817f836f86e64a199f14bfcb74856388fa51",
+      "commit": "5a58817f836f86e64a199f14bfcb74856388fa51",
+      "archive": "Flandora-source.zip"
+    },
+    "portable": {
+      "url": "https://github.com/OMSociety/Flandora/releases/download/v1.0.0/Flandora-v1.0.0.zip",
+      "archive": "Flandora-v1.0.0.zip",
+      "sha256": "843cf454d773597237a5b926a9e964b9c946eca2aec956872ee43f7f0e9ecc33"
+    },
+    "adapter": {
+      "url": "https://github.com/OMSociety/MaiBot-Flandora-Adapter/releases/download/v1.0.0/MaiBot-Flandora-Adapter-1.0.0.zip",
+      "archive": "MaiBot-Flandora-Adapter-1.0.0.zip",
+      "sha256": "f86f7b6798eb4ccb656b991fcc9cbc3c3a541e6ce731d333fb55e66ffbd656e6"
+    }
+  },
+  "compatibility_files": [
+    {
+      "component": "flandora",
+      "path": "flandora/uia_sender.py",
+      "base_sha256": "8d3a283013a6996104703af7b7cd5c0a4914db7947b672a36fbbcfcc83fadb4a",
+      "sha256": "7511d30058f61a2d5306c6d510369a67869f77014fb2c31c9c5572e4d755b623"
+    },
+    {
+      "component": "flandora",
+      "path": "flandora/wx_store.py",
+      "base_sha256": "196481fe6ad771c0cf063f5cc8ae707e4baaa667667498af55bd364786a9d26d",
+      "sha256": "952a79ecc36885b548f0ece8ac40e1f64b535bc37474e04b5dfa93047a51439e"
+    },
+    {
+      "component": "flandora",
+      "path": "flandora/win32/windows.py",
+      "base_sha256": "1c07cca6f18e899cf5a5fe05fa4a94427c097dd7d99e95992f6cc9d807e1d5d9",
+      "sha256": "abe93bb5f6de096be781ec3b9f63e98846a78c7a045f6f7f8973f9cc66f5a5b8"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_uia_animation.py",
+      "base_sha256": null,
+      "sha256": "b2029d4069356dea723c8b2502b407eb292093041a95cde1469af3b11f078ff1"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_uia_com.py",
+      "base_sha256": "e13ff472b70bfe5ff61cb701394f76c4230efce42f0b2314d9709b14867701e1",
+      "sha256": "c597b45e31f6ca106da16b28d7788c8f20b7b5b79d462648974e66cbba5c2f7f"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_uia_query.py",
+      "base_sha256": null,
+      "sha256": "ad2667d9a0fdcaf4216029eb493ab43cab79c8e15203b3768eaca2f39e19f890"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_webui_update.py",
+      "base_sha256": "afdf320811e093152390118bfe6f445bf28c9120fd205392846f423fc1ed6412",
+      "sha256": "6426c47ca4fc947fa236e6e49aef9514cbffa30081128b07cc1d95cfffd3e274"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_wechat_account.py",
+      "base_sha256": "fcc426d07a2efa3568578a4d9b14a8ecd1be26cab59136762a4546dc3417c403",
+      "sha256": "ab5935da60eddfa85307ae844f1b796693a8640d6b0c19365332b6eab34c291a"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_wx_store_inbound.py",
+      "base_sha256": "c9150d42e3ad6918e830074f503f90e423c4fe26c8a089bd3ba2dabd1404cee7",
+      "sha256": "c6d237b199b5cbcaee077dab232e62830133d4528c8f4fe4a1276ae2b5cf4881"
+    },
+    {
+      "component": "flandora",
+      "path": "tests/test_wx_store_refresh.py",
+      "base_sha256": "9092a81069bce3b0fe99cae4b10572bb23366b582d26ad1efd786f722c15aa16",
+      "sha256": "9a71a3fc558ef851a246a6c9246e4c51c82960c2c0fc71782285597f3a459606"
+    },
+    {
+      "component": "adapter",
+      "path": "codecs/segments_in.py",
+      "base_sha256": "17eacf6cb1e3e475632368c646b9484e73e432cac2cefcc52576abef90993368",
+      "sha256": "0fc8595dabf65144c528d1b106695dae3855d4b82869ed2f8522386065e715ff"
+    },
+    {
+      "component": "adapter",
+      "path": "tests/test_segments_in.py",
+      "base_sha256": "4e3bee308c3cc0dda24813f92669157a40e69ab9ad6a99cc49b16bd707d2ba6f",
+      "sha256": "c482362ddcd4f638d8b7d41e2e091f3a2447125bb074dca25efb06bd117b29b5"
+    },
+    {
+      "component": "flandora",
+      "path": "flandora/webui/dist/icon.svg",
+      "base_sha256": null,
+      "sha256": "bb919812921d47500ad87e4a52d824fbc3cb8e899321c53e0c96fa65d3d28bd4"
+    },
+    {
+      "component": "flandora",
+      "path": "flandora/webui/dist/index.html",
+      "base_sha256": null,
+      "sha256": "65bc778584a21cbb9f3c965f264885777809c4c1378fe104a783eaa0355b11b2"
+    },
+    {
+      "component": "flandora",
+      "path": "flandora/webui/dist/assets/index-DelWvHzR.css",
+      "base_sha256": null,
+      "sha256": "614bcd6ca817e4a223ebc616119bb44917e6653e92c8225ceb7766bf1d724300"
+    },
+    {
+      "component": "flandora",
+      "path": "flandora/webui/dist/assets/index-DuOyRGti.js",
+      "base_sha256": null,
+      "sha256": "48036f04e3cf15a582c2e89606f667a53455c84271cace48168a77e8c6af5c63"
+    }
+  ],
+  "runtime_files": [
+    {
+      "path": "tools/ffmpeg/avcodec-62.dll",
+      "size": 90947584,
+      "sha256": "0ec4094085606a3dd0afe0421a77340dc906c63d1b7a066a6d3ccc423eef8f80"
+    },
+    {
+      "path": "tools/ffmpeg/avdevice-62.dll",
+      "size": 4947456,
+      "sha256": "eb56d434324dbebfa27849562b52d6774be78a9742098c7da869bacd3cddf040"
+    },
+    {
+      "path": "tools/ffmpeg/avfilter-11.dll",
+      "size": 31557632,
+      "sha256": "44560483e52751893ec22286f673eeaba149e9040736fd0598fa2d89d7984e99"
+    },
+    {
+      "path": "tools/ffmpeg/avformat-62.dll",
+      "size": 22728192,
+      "sha256": "daf2d469697d15929732307454c9cfedd1005cf8c64ec096daf24e9f7bdabc22"
+    },
+    {
+      "path": "tools/ffmpeg/avutil-60.dll",
+      "size": 3014144,
+      "sha256": "7170da8f38bf4c7ec94ac23d057f4c3946bc46f4cd5d0bd9642d8e79ecb6f4c9"
+    },
+    {
+      "path": "tools/ffmpeg/ffmpeg.exe",
+      "size": 540672,
+      "sha256": "ea039032d89939c4c4d033cdcb0b61b13eb1323c7d7da32f98d4577da530386d"
+    },
+    {
+      "path": "tools/ffmpeg/LICENSE.txt",
+      "size": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "tools/ffmpeg/swresample-6.dll",
+      "size": 734720,
+      "sha256": "a34dda0fdd866d41db2efe565c115d4c152701af2d224d4cc5bc12f670a726b9"
+    },
+    {
+      "path": "tools/ffmpeg/swscale-9.dll",
+      "size": 12900864,
+      "sha256": "81ddba9746f6c183ad7a60e0ff7fef2033855743362dfa4f5713a0d2db6e9fe8"
+    },
+    {
+      "path": "tools/Flandora-KeyTool.exe",
+      "size": 79306855,
+      "sha256": "4960c0bb66bfc0cd86bd4436c051be9efafb4a2f85c3c043b16ceae469a2fb0e"
+    }
+  ],
+  "offline_bundle_version": "1.1.0"
+}

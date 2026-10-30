@@ -1,0 +1,299 @@
+{
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 310,
+      "sha256": "cbf60280630ceff0217449b188955df2b2c186985883a468cf81af10794d6ee8"
+    },
+    {
+      "path": "assets/compat/adapter/codecs/segments_in.py",
+      "bytes": 12525,
+      "sha256": "0fc8595dabf65144c528d1b106695dae3855d4b82869ed2f8522386065e715ff"
+    },
+    {
+      "path": "assets/compat/adapter/LICENSE",
+      "bytes": 34020,
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+    },
+    {
+      "path": "assets/compat/adapter/tests/test_segments_in.py",
+      "bytes": 5998,
+      "sha256": "c482362ddcd4f638d8b7d41e2e091f3a2447125bb074dca25efb06bd117b29b5"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/uia_sender.py",
+      "bytes": 89622,
+      "sha256": "7511d30058f61a2d5306c6d510369a67869f77014fb2c31c9c5572e4d755b623"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/webui/dist/assets/index-DelWvHzR.css",
+      "bytes": 71993,
+      "sha256": "614bcd6ca817e4a223ebc616119bb44917e6653e92c8225ceb7766bf1d724300"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/webui/dist/assets/index-DuOyRGti.js",
+      "bytes": 247688,
+      "sha256": "48036f04e3cf15a582c2e89606f667a53455c84271cace48168a77e8c6af5c63"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/webui/dist/icon.svg",
+      "bytes": 601,
+      "sha256": "bb919812921d47500ad87e4a52d824fbc3cb8e899321c53e0c96fa65d3d28bd4"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/webui/dist/index.html",
+      "bytes": 1063,
+      "sha256": "65bc778584a21cbb9f3c965f264885777809c4c1378fe104a783eaa0355b11b2"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/win32/windows.py",
+      "bytes": 9786,
+      "sha256": "abe93bb5f6de096be781ec3b9f63e98846a78c7a045f6f7f8973f9cc66f5a5b8"
+    },
+    {
+      "path": "assets/compat/flandora/flandora/wx_store.py",
+      "bytes": 41617,
+      "sha256": "952a79ecc36885b548f0ece8ac40e1f64b535bc37474e04b5dfa93047a51439e"
+    },
+    {
+      "path": "assets/compat/flandora/LICENSE",
+      "bytes": 1255,
+      "sha256": "0d7aef472305a44ccad30f42836ef0660a2227c6359853bb88fd5d7c249e90e5"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_uia_animation.py",
+      "bytes": 1848,
+      "sha256": "b2029d4069356dea723c8b2502b407eb292093041a95cde1469af3b11f078ff1"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_uia_com.py",
+      "bytes": 3628,
+      "sha256": "c597b45e31f6ca106da16b28d7788c8f20b7b5b79d462648974e66cbba5c2f7f"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_uia_query.py",
+      "bytes": 2605,
+      "sha256": "ad2667d9a0fdcaf4216029eb493ab43cab79c8e15203b3768eaca2f39e19f890"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_webui_update.py",
+      "bytes": 4483,
+      "sha256": "6426c47ca4fc947fa236e6e49aef9514cbffa30081128b07cc1d95cfffd3e274"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_wechat_account.py",
+      "bytes": 3103,
+      "sha256": "ab5935da60eddfa85307ae844f1b796693a8640d6b0c19365332b6eab34c291a"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_wx_store_inbound.py",
+      "bytes": 5968,
+      "sha256": "c6d237b199b5cbcaee077dab232e62830133d4528c8f4fe4a1276ae2b5cf4881"
+    },
+    {
+      "path": "assets/compat/flandora/tests/test_wx_store_refresh.py",
+      "bytes": 3417,
+      "sha256": "9a71a3fc558ef851a246a6c9246e4c51c82960c2c0fc71782285597f3a459606"
+    },
+    {
+      "path": "assets/flandora-constraints.txt",
+      "bytes": 1003,
+      "sha256": "c4ef2fe8ba233392878a6967ec110e37fe4b7271ee4a74afb41a5063a087bac0"
+    },
+    {
+      "path": "assets/maibot-constraints.txt",
+      "bytes": 1717,
+      "sha256": "ceb40d554667911e1c5aa1beb1b779cdafdd444f729d84e979db16085e687cb5"
+    },
+    {
+      "path": "assets/model-config.template.json",
+      "bytes": 3488,
+      "sha256": "0cf9dd5ea3db58da9ab945d45315918f6d79cf330d0aff5283d141da2b88fa84"
+    },
+    {
+      "path": "assets/starter-emoji/happy.gif",
+      "bytes": 12937,
+      "sha256": "8e2abca89a9f209d79a57603da0f28c623a73555ca6ac8e27f9ed9b9f56caf5c"
+    },
+    {
+      "path": "assets/starter-emoji/heart.gif",
+      "bytes": 11992,
+      "sha256": "34933a1aaacdcfa21518927c788b1d23c8d2820bb310b93256585693a4642792"
+    },
+    {
+      "path": "assets/starter-emoji/sleepy.gif",
+      "bytes": 12428,
+      "sha256": "1a8de3f05b9ff80a878997eeb28ee6c47b4a37d35913ab3c3866d654cc24eb05"
+    },
+    {
+      "path": "assets/starter-emoji/speechless.gif",
+      "bytes": 10703,
+      "sha256": "2087b6277c66b214b96a56ce291ae3b728fc27b1f1e1a0857a93f07c2f607431"
+    },
+    {
+      "path": "assets/versions.json",
+      "bytes": 7005,
+      "sha256": "3855abb43717eadd1cf32d42a2b1013c16cf3827970b4a4c740c51077de34efd"
+    },
+    {
+      "path": "assets/wechat-group-tools/_manifest.json",
+      "bytes": 976,
+      "sha256": "ec576c0839527cd804a37f320d0364d3de3490b2efdac70f8945a68a4f4b3cd0"
+    },
+    {
+      "path": "assets/wechat-group-tools/animations.py",
+      "bytes": 3954,
+      "sha256": "b6fa0bc2030b080134be87b778cec8fc276b8a1d266f228c46604f0d13c49dd3"
+    },
+    {
+      "path": "assets/wechat-group-tools/behavior.py",
+      "bytes": 16545,
+      "sha256": "4ad1c409e51bd6667ac81e45d48ca12df314c7f300e9cc8d1723325cf916bf7f"
+    },
+    {
+      "path": "assets/wechat-group-tools/config.py",
+      "bytes": 1999,
+      "sha256": "c0265a04bd82b013f5cf40186b00e4c6caeeffa1fab08d07526723d9220f3a74"
+    },
+    {
+      "path": "assets/wechat-group-tools/group_query.py",
+      "bytes": 1863,
+      "sha256": "6d466f509ed5f4d9900dd3e293cd943141d7a2f0a1c6fb737b365af211b6c9d7"
+    },
+    {
+      "path": "assets/wechat-group-tools/LICENSE",
+      "bytes": 1314,
+      "sha256": "d60c9dc211763e35c018b132b39ce4ab9334de7ac9065f3936e0102250a1d0d8"
+    },
+    {
+      "path": "assets/wechat-group-tools/plugin.py",
+      "bytes": 6713,
+      "sha256": "63d8dba641d5586d0a73c3854c497438d6ab82c79629c3e7f3174633626a48d4"
+    },
+    {
+      "path": "assets/wechat-group-tools/pyproject.toml",
+      "bytes": 289,
+      "sha256": "d0cc951ca9e3e0d25226ac304f0cfe3b12a21e1896086f1da105f8ec267da765"
+    },
+    {
+      "path": "assets/wechat-group-tools/skills/sweet-talk/SKILL.md",
+      "bytes": 4435,
+      "sha256": "3e399d608ce4f14064d40bc6aeaccf06f26a50cf27a0f74a81924f21ecf02f49"
+    },
+    {
+      "path": "assets/wechat-group-tools/tests/test_animations.py",
+      "bytes": 2319,
+      "sha256": "33ce74c8f4b17aba28a5275c7be53c25913326e0de51dec88f456faca826698e"
+    },
+    {
+      "path": "assets/wechat-group-tools/tests/test_behavior.py",
+      "bytes": 11087,
+      "sha256": "aabc67f1cb9b85d2e86ebd03e6dab59656dbdb9f84a7c68ad2e27e0671f3e5fa"
+    },
+    {
+      "path": "assets/wechat-group-tools/tests/test_tools.py",
+      "bytes": 4691,
+      "sha256": "f5110eaea8d9a925b1b39a68602340d754dd177dd0895ea2370b8c1fec267cb5"
+    },
+    {
+      "path": "assets/wechat-group-tools/third_party/simp-skill/LICENSE",
+      "bytes": 1070,
+      "sha256": "68f2962a735e54b18f955cdabe36ccc53ed0acf2193392cf057dee1b1ea8340c"
+    },
+    {
+      "path": "assets/wechat-group-tools/third_party/simp-skill/message_crafter.md",
+      "bytes": 8400,
+      "sha256": "380c27e92ef68b45bd9a99e63be55181895821654d735bd516bd3bccf67624b5"
+    },
+    {
+      "path": "assets/wechat-group-tools/third_party/simp-skill/SOURCE.json",
+      "bytes": 592,
+      "sha256": "985c255e8d50ae7308ade0320a040c4e0ace0afcf041417c01eb7e2f862fd5de"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1314,
+      "sha256": "d60c9dc211763e35c018b132b39ce4ab9334de7ac9065f3936e0102250a1d0d8"
+    },
+    {
+      "path": "references/acceptance.md",
+      "bytes": 2905,
+      "sha256": "70138a8c7ac1af7df5bec96dcbdf1ebea6fad08af2140e5de4308767ae505a13"
+    },
+    {
+      "path": "references/agent-platforms.md",
+      "bytes": 5410,
+      "sha256": "adc649d90d334fe19ec98f07de0dff5dd282650928b0af85047519bcab0afb1f"
+    },
+    {
+      "path": "references/install.md",
+      "bytes": 3135,
+      "sha256": "e55c3c98d0c59fb17eee39f08e3da82c0ba1330b4d14c3d8470b821a9cfe2d97"
+    },
+    {
+      "path": "references/offline.md",
+      "bytes": 2931,
+      "sha256": "7d28edbbc5c28e5211835a9475670916fbee95e88ad8c88b9e836deca6cf738e"
+    },
+    {
+      "path": "references/operations.md",
+      "bytes": 2392,
+      "sha256": "d82d4f04e6b4e251dc26c308e9fff55ed174eacd4276b2c112b5de92a692eb33"
+    },
+    {
+      "path": "scripts/agent_entry.py",
+      "bytes": 15893,
+      "sha256": "0f6aff09dd87ddd3876f5f1c1629cf97370731cf1d009cc13d464799c64765f0"
+    },
+    {
+      "path": "scripts/audit_package.py",
+      "bytes": 2514,
+      "sha256": "99b67a8287c931f025ab9dd919ec5ed09aeac9f08d5186a77dd1c61cf90fd3cb"
+    },
+    {
+      "path": "scripts/bootstrap.cmd",
+      "bytes": 511,
+      "sha256": "54dc03a31ca609015f2b902bc29808e687d3aabfe155a06aeefca4841bbf9408"
+    },
+    {
+      "path": "scripts/bootstrap.ps1",
+      "bytes": 9124,
+      "sha256": "e1ca0f21fce42ea9cf407c56b158f73acb47fdb54edebd2bdc912d32ba3a8c9c"
+    },
+    {
+      "path": "scripts/common.py",
+      "bytes": 8034,
+      "sha256": "7816bad8297c294182185c41f49ec4079752be11cef78f77e36d2b88526b3043"
+    },
+    {
+      "path": "scripts/manage.py",
+      "bytes": 38219,
+      "sha256": "413403410e4b230e9344edf4ad2628db9a6eb2df579ccd8f9d77183c1d974d57"
+    },
+    {
+      "path": "scripts/setup.py",
+      "bytes": 10805,
+      "sha256": "68bdb51a1923423c7517e1551ca53eb4dd514462e4e25c413396a07d1894e130"
+    },
+    {
+      "path": "scripts/test_agent_entry.py",
+      "bytes": 11791,
+      "sha256": "485cb9503285ed8e051880f6ebcaaee80e9600fa5e9bf183f65bdab22e7d8d00"
+    },
+    {
+      "path": "scripts/test_setup.py",
+      "bytes": 9901,
+      "sha256": "c4b3b03d836a656faa4f0dbef95c01ce5cc0f220e07bf998e1a9eb91ddb63489"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5286,
+      "sha256": "f8b7d4ad04c8d96c136e0e4cd12be1ff27b95bf717297eacd8970681c19f63c4"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "bytes": 1730,
+      "sha256": "67e59fac6ed56de445e1f3aa836631fd8857ff20db6859303a3502534fb0dcd3"
+    }
+  ]
+}
