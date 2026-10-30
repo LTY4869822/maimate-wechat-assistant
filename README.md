@@ -14,7 +14,7 @@
 
 ## 下载与安装
 
-在 [Releases](../../releases) 下载完整离线包，完整解压后双击 `自动配置群聊助手.cmd`。该包包含 Python、固定依赖、源码归档及资源，安装时不需要访问 GitHub 或 PyPI。
+在 [Releases](https://github.com/LTY4869822/maimate-wechat-assistant/releases) 下载完整离线包，完整解压后双击 `自动配置群聊助手.cmd`。该包包含 Python、固定依赖、源码归档及资源，安装时不需要访问 GitHub 或 PyPI。
 
 1. 准备 Windows 10 22H2 / Windows 11 x64、约 6 GB 空间、兼容的官方电脑版微信、已在目标群的小号和自己的 DeepSeek API Key。
 2. 安装后，在本机窗口填写密钥并阅读使用条款；在 Flandora 向导中扫码并手机确认。
