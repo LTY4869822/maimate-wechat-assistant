@@ -1,0 +1,5 @@
+# Keep skill fingerprints portable across Windows, macOS and Linux checkouts.
+skill/** -text
+/README.md text eol=lf
+/RELEASE-NOTES.md text eol=lf
+/THIRD-PARTY.md text eol=lf
